@@ -17,6 +17,6 @@ proxies:
   	ws-opts:
   	  path: "/?ed=2048"
   	  headers:
-  		  host: miao.shenjin.dynv6.net
+  		host: miao.shenjin.dynv6.net
 proxy-groups:
 rules:
