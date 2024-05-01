@@ -4,5 +4,19 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
+  - type: vless
+  	name: miao.shenjin.dynv6.net
+  	server: 173.245.59.43
+  	port: 443
+  	uuid: bc7ade9f-b694-46df-bc06-f95d91de1a47
+  	network: ws
+  	tls: true
+  	udp: false
+  	sni: miao.shenjin.dynv6.net
+  	client-fingerprint: chrome
+  	ws-opts:
+  	  path: "/?ed=2048"
+  	  headers:
+  		  host: miao.shenjin.dynv6.net
 proxy-groups:
 rules:
